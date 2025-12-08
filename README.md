@@ -12,15 +12,14 @@ clean and noisy speech recordings. The `dataset_prep.ipynb` notebook:
 - Segments audio into fixed-length chunks (default: **2 seconds** → 32,000 samples)
 - Saves processed files under:
 
-data_16k/
-train/clean/.wav
-train/noisy/.wav
-val/clean/.wav
-val/noisy/.wav
-test/clean/.wav
-test/noisy/.wav
-metadata.csv
-
+- data_16k/
+- train/clean/.wav
+- train/noisy/.wav
+- val/clean/.wav
+- val/noisy/.wav
+- test/clean/.wav
+- test/noisy/.wav
+- metadata.csv
 
 ### PyTorch Dataset Interface
 
