@@ -1,4 +1,4 @@
-## 🗂 Dataset Preparation (Colab)
+## Dataset Preparation (Colab)
 
 We use the **Denoising Audio Collection** Kaggle dataset, which provides parallel
 clean and noisy speech recordings. The `dataset_prep.ipynb` notebook:
