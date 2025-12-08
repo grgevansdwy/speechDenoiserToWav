@@ -27,7 +27,7 @@ To make training and evaluation easier, we provide a `DenoisingDataset` class
 that returns aligned `(noisy, clean)` waveform pairs as PyTorch tensors:
 
 ```python
-from dataset import DenoisingDataset  # or from notebook if in Colab
+from dataset import DenoisingDataset
 
 train_ds = DenoisingDataset("data_16k/metadata.csv", split="train")
 noisy, clean = train_ds[0]  # shapes: [1, T], 16 kHz, normalized to [-1, 1]
